@@ -3,6 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Muhammad Ilham Mubarak</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -27,7 +28,7 @@
           </ul>
         </nav>
       </div>
-      <div class="profile-wrapper">
+      <div class="profile-wrapper" data-aos="fade-down" data-aos-delay="300">
         <img class="profile-picture" src="profil.png" />
         <h1>Muhammad Ilham Mubarak // <span>Aang</span></h1>
         <p>
@@ -35,7 +36,7 @@
           - Indonesia
         </p>
       </div>
-      <div class="bio-wrapper" id="about">
+      <div class="bio-wrapper" id="about" data-aos="fade-down" data-aos-delay="600">
         <p>
           Hi everyone 👋, I'm Ilham or <b><span>Aang</span></b
           >.
@@ -48,7 +49,7 @@
           >.
         </p>
       </div>
-      <div class="experience-wrapper" id="experience">
+      <div class="experience-wrapper" id="experience"  data-aos="fade-down" data-aos-delay="900">
         <h2>Experiences</h2>
         <ul class="experience-list">
           <li class="experience-list-item">
@@ -128,5 +129,10 @@
         <button type="submit">Submit</button>
       </div>
     </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
